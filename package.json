@@ -9,6 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "electron": "^3.0.0"
+    "electron": "^3.0.0",
+    "jquery": "^3.3.1"
   }
 }
