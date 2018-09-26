@@ -16,8 +16,10 @@ $(() => {
         } else {
           clearInterval(Interval);
           Interval = null;
-          $(".collection").removeClass("hidden");
-          $(".collection").append("<li class='collection-item'>" + seconds + ":" + tens + "</li>")
+          $(".collection").removeClass("hide");
+          $(".collection")
+            .append("<li class='collection-item'>" + seconds + ":" + tens + "</li>")
+            //.append($("<li>").addClass("collection-item").text(seconds + ":" + tens));
         }
         break;
     }
