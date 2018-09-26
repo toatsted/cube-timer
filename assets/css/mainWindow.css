@@ -1,3 +1,11 @@
 #container {
   height: 100%;
 }
+
+.time-container {
+  margin-top: 25%;
+}
+
+#time {
+  font-size: 5rem;
+}
